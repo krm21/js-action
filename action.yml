@@ -1,0 +1,13 @@
+name: "JavaScript GitHub Action"
+description: "A simple GitHub Action written in JavaScript"
+author: "Your Name"
+
+inputs:
+  message:
+    description: "Message to print"
+    required: false
+    default: "Hello from JavaScript Action!"
+
+runs:
+  using: "node16"
+  main: "index.js"
